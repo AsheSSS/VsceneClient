@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.vsence.client.newproject.SocketDemo">
+
+
+
+
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/tv_msg"
+        android:text="在下面輸入文字"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/ed_msg"
+        android:hint="aaaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:gravity="center"
+        android:id="@+id/btn_send"
+        android:text="發送"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+</LinearLayout>
